@@ -2,7 +2,7 @@ import pickle, bz2
 from flask import Flask, request, render_template
 import numpy as np
 import pandas as pd
-from app_logger import log
+from one.app_logger import log
 import warnings
 warnings.filterwarnings("ignore")
 
